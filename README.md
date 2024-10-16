@@ -1,5 +1,7 @@
 # USB Temperature And Humidity Data Logger
 
+![DS100 data logger](https://github.com/user-attachments/assets/58afa044-f77c-4777-82ef-718dec3cf9f4)
+
 This is a simple python script to read data from a USB Temperature And Humidity Data Logger.
 
 After connecting the device we see:
@@ -9,6 +11,7 @@ $ lsusb
 Bus 003 Device 029: ID 1941:8021 Dream Link WH1080 Weather Station / USB Missile Launcher
 ...
 ```
+But the device is not `Dream Link WH1080` rather it is much simpler device sold under many names such as DS100 or Kongin logger with only one temperature+humidity sensor.
 
 ## Installation
 
